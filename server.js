@@ -5,7 +5,7 @@ const { Pool } = require('pg');
 
 // configure your connection string as needed
 const pool = new Pool({
-    connectionString: 'postgresql://postgres:yourpassword@localhost:5432/crud_app'
+    connectionString: 'postgresql://postgres:3150@localhost:5432/crud_app'
 });
 
 const app = express();
